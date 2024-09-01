@@ -1,0 +1,38 @@
+:root {
+  --color-tema: white;
+  --color-primario: #124f88;
+  --color-secundario: #f7c331;
+  --color-texto-inverso: white;
+  --color-texto: black;
+  --color-barra: #e5e5e5;
+  --color-de-fondo-menu-movil: #3a4460;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--color-tema);
+  color: var(--color-texto);
+  padding-top: 70px;
+}
+a {
+  text-decoration: none;
+  color: var(--color-texto);
+}
+.horizontal-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.vertical-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 950px) {
+  .horizontal-padding {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .vertical-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+}
